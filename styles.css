@@ -1,0 +1,137 @@
+/*CSS Reset*/
+*{
+  padding: 0px;
+  margin:0 auto;
+}
+#container{
+  height: 1029px;
+  width: 970px;
+  background-color: #6F5964;
+  background: radial-gradient(#6F5964,#4C3941,#1F0F14);
+  margin: 0 auto;
+}
+#header{
+  height: 65px;
+  background-color: #F7F7F7;
+}
+h1{
+  width: 460px;
+  padding-left: 20px;
+  display: inline-block;
+  line-height: 65px;
+}
+h3{
+  width: 450px;
+  display: inline-block;
+  padding-right: 15px;
+  line-height: 65px;
+  text-align: right;
+}
+#main_image{
+  width: 400px;
+  height: 265px;
+  margin: 20px 10px 20px 20px;
+  border: 5px solid #C0C0C0;
+}
+#about{
+  width: 495px;
+  height: 275px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #E8DEE7;
+  background: linear-gradient(to right, #FEFDFE, #DBCCDA);
+  margin: 20px 20px 20px 10px;
+}
+#about_description{
+  padding: 7px;
+  color: grey;
+}
+#about_header, .project_header{
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  padding-left: 10px;
+  font-size: 20px;
+}
+#about_header, .project_header, .technology_header{
+  background-color: #B4B3B7;
+  background: linear-gradient(#B4B3B7,#878592,#B4B3B7);
+}
+.project{
+  width: 294px;
+  height: 555px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #E8DEE7;
+  background: linear-gradient(to right, #FEFDFE, #DBCCDA);
+  margin: 0 0 20px 20px;
+}
+.project_img{
+  width: 294px;
+  height: 150px;
+}
+.project_description{
+  height: 160px;
+  padding: 7px;
+  color: grey;
+  text-align: justify;
+}
+.technology_header{
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  padding-left: 10px;
+}
+.badge_row{
+  margin: 10px 10px 5px 10px;
+}
+.badge{
+  width: 35px;
+  display: inline;
+  margin: 0 8px 0px 8px;
+}
+.project_btn{
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  font-size: 15px;
+  background-color: #407D61;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px #949394;
+}
+#la_mode{
+  width: 65px;
+}
+#family_contacts{
+  width: 105px;
+}
+#fiveEleven{
+  width: 75px;
+}
+#footer{
+  height: 74px;
+  background-color: #F7F7F7;
+  text-align: center;
+}
+#footer p{
+  text-align: center;
+  padding: 10px;
+  color: grey
+}
+#footer_container{
+  display: inline-block;
+}
+.footer_img{
+  height: 20px;
+  vertical-align: middle;
+}
+#about a{
+  color: grey;
+}
+#footer a {
+  color: grey;
+  font-style: italic;
+}
